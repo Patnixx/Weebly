@@ -1,0 +1,63 @@
+.menu-content-container{
+    background: url('../assets/menu-sub.jpg');
+    background-size: 150%;
+    height: 108.688rem;
+    display: grid;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+h1.menuh1w{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    line-height: 23px !important;
+    font-family: "Aller" !important;
+    font-style: normal !important;
+    letter-spacing: 0px !important;
+    word-wrap: break-word;
+    font-weight: 700;
+}
+
+h1.menuh1o{
+    color: rgb(233, 164, 118);
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 33px !important;
+    font-family: "Aller" !important;
+    word-spacing: 0.01em;
+
+}
+
+h2.menuh2o{
+    color: rgb(233, 164, 118);
+    text-align: center;
+    line-height: 23px !important;
+    font-family: "Aller" !important;
+    font-style: normal !important;
+    letter-spacing: 0px !important;
+    word-wrap: break-word;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h2 span{
+    color: rgb(194, 59, 59) !important;
+}
+
+h3.menuh3{
+    font-style: italic;
+    text-align: center;
+    font-size: 17px !important;
+    line-height: 33px !important;
+    color: white !important;
+    font-family: "Aller" !important;
+    font-weight: lighter;
+    word-spacing: 0.01em;
+
+}
+
+.zlomik{
+    height: 3px;
+}

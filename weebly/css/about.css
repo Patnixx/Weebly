@@ -1,0 +1,87 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+.about-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.about-banner{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: #2a2a2a !important;
+    font-family: "Aller" !important;
+    font-style: normal !important;
+    letter-spacing: 0px !important;
+    word-wrap: break-word;
+
+}
+
+.about-subbanner{
+    color: rgb(81, 81, 81);
+    text-align: center !important;
+    font-family: "Aller" !important;
+    font-weight: lighter !important;
+    word-spacing: 0.01em !important;
+    line-height: 1.5 !important;
+    word-wrap: break-word !important;
+
+}
+
+.about-comments{
+    display: grid;
+    grid-template-columns: 1fr 0.08fr 1fr;
+    justify-content: space-between;
+}
+
+.about-comments img{
+    width: 100%;
+}
+
+/*.comment-left{
+    margin-right: 1.5rem;
+}*/
+
+.left-content, .right-content{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.left-content h2, .right-content h2{
+    font-weight: bold;
+    text-align: center;
+    line-height: 23px !important;
+    color: #2a2a2a !important;
+    font-family: "Aller" !important;
+    font-style: normal !important;
+    letter-spacing: 0px !important;
+    word-wrap: break-word;
+    font-size: 1.5em;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+
+.left-content span{
+    color: rgb(81, 81, 81);
+    text-align: center;
+    font-size: 17px !important;
+    line-height: 33px !important;
+    font-family: "Aller" !important;
+    font-weight: lighter;
+    word-spacing: 0.01em;
+    word-wrap: break-word;
+    text-indent: initial;
+    border-spacing: 2px;
+}
